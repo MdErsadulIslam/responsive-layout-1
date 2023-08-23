@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+img{
+    width: 50vw;
+    height: 300px;
+}
+.text{
+    text-align: center;
+}
+.card-revarse{
+
+}
+@media screen and (max-width:576px) {
+    .card{
+        display: block;
+        }
+        img{
+            width: 100vw;
+        }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .card{
+        display: block;
+        }
+        img{
+            width: 100vw;
+        }  
+}
